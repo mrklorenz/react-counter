@@ -6,4 +6,8 @@
     margin: 0 auto;
     margin-top: 50px;
     box-shadow: 5px 10px #888888;
+    background-image: url('../resources/images/mario.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }

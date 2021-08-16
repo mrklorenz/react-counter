@@ -1,3 +1,13 @@
-.counter {
+.Counter {
     margin: 15px;
+}
+
+.CounterButton{
+    background-color: #8842d5;
+    border: none;
+    color: white;
+    padding: 18px 36px;
+    text-decoration: none;
+    margin: 5px 4px;
+    cursor: pointer; 
 }

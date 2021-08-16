@@ -1,6 +1,7 @@
 import CounterSizeGenerator from "./CounterSizeGenerator";
 import CounterGroup from "./CounterGroup";
 import { useState } from "react";
+import "../styles/MultiCounter.css";
 
 function MultipleCounter() {
 
@@ -11,7 +12,7 @@ function MultipleCounter() {
     }
 
     return(
-        <div>
+        <div className="MultiCounter">
             <CounterSizeGenerator onUpdateCounterSize={updateCounterSize}></CounterSizeGenerator>
             <CounterGroup counterSize={counterSize}></CounterGroup>
         </div>

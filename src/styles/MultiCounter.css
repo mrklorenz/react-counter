@@ -1,0 +1,9 @@
+.MultiCounter{
+    width: 500px;
+    border: 1;
+    border-style: solid;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 5px 10px #888888;
+}
